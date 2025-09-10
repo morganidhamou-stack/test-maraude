@@ -25,8 +25,8 @@ app.post("/signalement", async (req, res) => {
   }
 
   const message = {
-    to: "115@example.com", // Remplace par le vrai email
-    from: "no-reply@tonapp.com",
+    to: "moowidh@gmail.com", // Remplace par le vrai email
+    from: "morgan.idhamou@gmail.com",
     subject: "Nouveau signalement",
     text: JSON.stringify(data, null, 2),
     html: `<pre>${JSON.stringify(data, null, 2)}</pre>`,
@@ -45,3 +45,4 @@ app.post("/signalement", async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Serveur démarré sur le port ${PORT}`);
 });
+
